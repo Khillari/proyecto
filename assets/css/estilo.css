@@ -1,0 +1,169 @@
+* {margin: 0;
+	padding: 0;} {}
+
+.body {background-image: linear-gradient(to top, #DAFFFF, azure);}
+
+.footerBg {background-color: #DAFFFF;
+	text-align: center;
+	color: plum;
+	padding: 0;
+	margin: 0;}
+
+.container-footer {margin-top: 5px;}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: lightpink;}
+.navbar-light .navbar-nav .nav-link {color: lightskyblue;}
+
+.bg-light {background-color: azure!important;}
+
+a:hover {color: lightpink;}
+
+.card2 {background-color: lightskyblue;
+	border: 3px dashed lightpink;}
+
+.card3 {background-color: lightpink;
+	border: 3px dashed lightskyblue;}
+
+.card4 {background-color: lightpink;
+	border: 3px solid rgba(0,0,0,.125);}
+
+.card5 {background-color: lightskyblue;
+	border: 3px solid rgba(0,0,0,.125);}
+
+.card2:hover {background-color: plum;}
+
+.card3:hover {background-color: plum;}
+
+.card4:hover {background-color: plum;}
+
+.card5:hover {background-color: plum;}
+
+.contenedor {text-align: center;}
+
+.formulario1 {color: lightskyblue;}
+
+.formulario2 {color: lightpink;}
+
+.formulario3 {color: lightskyblue;}
+
+.enviar {background-color: lightpink;
+	color: black;
+	border: 1px solid lightpink;}
+
+.enviar:hover {background-color: plum;
+	border: 1px solid plum;}
+
+.borrar {background-color: lightskyblue;
+	color: black;
+	border: 1px solid lightskyblue;}
+
+.borrar:hover {background-color: plum;
+	border: 1px solid plum;}
+
+
+											/* VISTA DESKTOP */
+@media only screen and (min-width: 1024px){
+
+.navbar-expand-lg .navbar-collapse{justify-content: flex-end;}
+
+.logo {width: 90px;
+	margin-top: 5px;}
+
+.titulo1 {text-align: center;
+	color: lightpink;
+	font-size: 60px} 
+
+@keyframes efecto {0% {color: lightpink;}
+	50% {color: lightskyblue;}
+	100% {color: lightpink;}}
+
+.tituloo {animation-name: efecto;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 5;}
+
+.h3, h3 {font-size: 30px;} 
+
+.titulo2 {text-align: center;
+	color: lightskyblue;
+	font-size: 60px}
+
+.lagunaEsmeralda {width: 650px;
+	padding: 5px;
+	margin-left: 10px;
+	transition: height 2s, width 1s;}
+
+.lagunaEsmeralda:hover {width: 700px;}
+
+
+.texto {font-size: 20px;
+	padding: 5px;
+	font-family: arial;}}
+
+
+											/* VISTA ENTRE DESKTOP Y MOBILE */
+@media only screen and (min-width:768px) and (max-width:1239px){
+
+.logo {width: 80px;
+	margin-top: 5px;}
+
+.titulo1 {text-align: center;
+	color: lightskyblue;
+	font-size: 40px;} 
+
+@keyframes efecto {0% {color: lightskyblue;}
+	50% {color: lightpink;}
+	100% {color: lightskyblue;}}
+
+.tituloo {animation-name: efecto;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 5;}
+
+.h3, h3 {font-size: 20px;} 
+
+.titulo2 {text-align: center;
+	color: lightpink;
+	font-size: 40px}
+
+.lagunaEsmeralda {width: 500px;
+	padding: 5px;
+	margin-left: 10px;}
+
+.lagunaEsmeralda:hover {width: 550px;}
+
+.texto {font-size: 17px;
+	padding: 5px;
+	font-family: arial;}}
+
+											/* VISTA MOBILE */
+@media only screen and (max-width: 767px){
+
+.logo {width: 70px;
+	margin-top: 5px;}
+
+.titulo1 {text-align: center;
+	color: lightpink;
+	font-size: 30px;} 
+
+@keyframes efecto {0% {color: lightpink;}
+	50% {color: lightskyblue;}
+	100% {color: lightpink;}}
+
+.tituloo {animation-name: efecto;
+	animation-duration: 3s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 5;}
+
+.h3, h3 {font-size: 10px;} 
+
+.titulo2 {text-align: center;
+	color: lightskyblue;
+	font-size: 30px} 
+
+.lagunaEsmeralda {width: 100%;}
+
+.texto {font-size: 15px;
+	padding: 5px;
+	font-family: arial;}}
